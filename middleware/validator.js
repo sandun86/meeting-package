@@ -1,5 +1,8 @@
-const { check, validationResult, body } = require("express-validator");
+/**
+ * Validator
+ */
 
+const { validationResult, body } = require("express-validator");
 const { response } = require("./../config/response");
 
 const validator = {

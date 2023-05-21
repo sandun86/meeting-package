@@ -1,3 +1,7 @@
+/**
+ * Database connection
+ */
+
 const mysql = require("mysql");
 
 const db = {

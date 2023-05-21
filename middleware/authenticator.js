@@ -1,3 +1,7 @@
+/**
+ * Authentication Middleware
+ */
+
 const { response } = require("../config/response");
 
 module.exports = function (req, res, next) {

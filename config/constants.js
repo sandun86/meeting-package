@@ -1,3 +1,7 @@
+/**
+ * Constants are defined
+ */
+
 require('dotenv').config();
 
 module.exports = {

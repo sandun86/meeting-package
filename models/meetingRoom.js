@@ -1,8 +1,14 @@
+/**
+ * MeetingRoomModel
+ */
+
 const util = require("util");
 const db = require("../config/database");
 
 const meetingRoom = {
+
 	getMeetingRoomPrices: (meetingRoomId, channelId, next) => {
+
 		const query = "SELECT channel_name, price, venue_name, channel.is_visible as is_visible_channel, venue.is_visible as is_visible_venue "
 		+"FROM meeting_room_price "
 		+"INNER JOIN channel ON `channel`.`id` = `meeting_room_price`.`channel_id` "
