@@ -7,3 +7,8 @@ Follow bellow steps before getting start
 2) Run `npm install` for install packages
 3) Run `npm start` 
 4) Run `npm run dev` for the dev testing 
+
+
+# Design
+
+<img src="design.png" alt="Design" title="Design">
